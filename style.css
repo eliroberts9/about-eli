@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Comic Sans MS', sans-serif;
 	background: #747474;
 	color: white;
 	text-align: center;
@@ -11,7 +11,7 @@ h1 {
 	font-size: 4em;
 	text-transform: uppercase;
 	margin: 0;
-	color: #07adbc;
+	color: darkgoldenrod;
 	text-align: center;
 	padding-top: 1px;
 	text-shadow: 1px 1px 2px grey;
@@ -30,18 +30,29 @@ p {
 }
 
 .container {
-	max-widtb: 400px;
+	max-width: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
+
+#fleur {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 5%;
+}
+
 
 #selfie {
 	border-radius: 15px;
 	margin-top: 25px;
 	padding: 0px;
-	border: 2px solid black;
+	border: 2px solid darkgoldenrod;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 33%;
+	width: 100%;
 }
 
 #about {
@@ -54,7 +65,7 @@ p {
 	margin-right: auto;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	background: #07adbc;
-	border: 2px solid black;
+	background: silver;
+	border: 2px solid darkgoldenrod;
 	color: black;
 }
