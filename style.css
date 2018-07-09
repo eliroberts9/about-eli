@@ -1,0 +1,21 @@
+body {
+	background: #747474;
+	color: white;
+	text-align: center;
+	align-content: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+#container {
+	max-widtb: 400px;
+}
+
+#selfie {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}
