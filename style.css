@@ -30,6 +30,7 @@ p {
 }
 
 .container {
+	border-radius: 5px;
 	max-width: 400px;
 	display: block;
 	margin-left: auto;
@@ -45,21 +46,21 @@ p {
 
 
 #selfie {
-	border-radius: 15px;
+	border-radius: 5px;
 	margin-top: 25px;
-	padding: 0px;
 	border: 2px solid darkgoldenrod;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 100%;
-
+	max-width: 30%;
+	position: absolute;
+	left: 50px;
+	top: 200px;
 }
 
 #about {
 	padding-left: 10px;
 	padding-right: 10px;
-	border-radius: 15px;
 	max-width: 60%;
 	display: block;
 	margin-left: auto;
@@ -69,4 +70,7 @@ p {
 	background: silver;
 	border: 2px solid darkgoldenrod;
 	color: black;
+	position:absolute;
+	right: 50px;
+	top: 100px;
 }
